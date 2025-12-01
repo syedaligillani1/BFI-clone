@@ -70,7 +70,6 @@ export default function Header() {
         </Text> */}
             </View>
 
-            {/* Yellow Separator Line */}
             <View
                 style={{
                     height: 5,

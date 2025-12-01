@@ -16,7 +16,7 @@ export default function BannerSlider() {
         <Image
           source={require("../assets/banners/banner1.png")}
           style={{
-            width: width,       // full screen width
+            width: width,       
             height: 180,
             borderRadius: 15,    
           }}

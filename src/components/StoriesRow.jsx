@@ -22,7 +22,6 @@ export default function StoriesRow() {
           key={item.id}
           style={{ alignItems: "center", width: 75 }}
         >
-          {/* Yellow circular border */}
           <View
             style={{
               width: 70,
@@ -36,7 +35,6 @@ export default function StoriesRow() {
           >
           </View>
 
-          {/* Label */}
           <Text
             style={{
               marginTop: 6,

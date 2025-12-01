@@ -30,7 +30,6 @@ export default function Instructors() {
 
   return (
     <View style={{ marginTop: 25 }}>
-      {/* Title */}
       <View
         style={{
           flexDirection: "row",
@@ -45,7 +44,6 @@ export default function Instructors() {
         </Text>
       </View>
 
-      {/* Horizontal Scroll */}
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
@@ -71,7 +69,7 @@ export default function Instructors() {
               elevation: 2
             }}
           >
-            {/* Image LEFT */}
+
             <Image
               source={inst.image}
               style={{
@@ -83,7 +81,6 @@ export default function Instructors() {
               resizeMode="cover"
             />
 
-            {/* TEXT RIGHT */}
             <View style={{ flex: 1 }}>
               <Text style={{ fontSize: 13 , fontWeight: "600" }}>
                 {inst.name}
