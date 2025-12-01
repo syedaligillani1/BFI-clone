@@ -1,0 +1,3 @@
+<NavigationContainer>
+  <BottomTabs />
+</NavigationContainer>
